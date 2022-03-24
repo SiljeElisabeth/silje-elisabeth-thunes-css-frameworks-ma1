@@ -1,0 +1,10 @@
+.navbar-collapse{
+    justify-content: right;
+}
+
+.nav-link{
+    color:#8D8D8D;
+    &active{
+        color:$primarycolor;
+    }
+}
