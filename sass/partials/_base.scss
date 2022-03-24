@@ -1,0 +1,22 @@
+body{
+    background-color: $backgroundcolor;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+footer{
+    background-color: $accent;
+    display: flex;
+    justify-content: space-between;
+    font-size:.7em;
+    flex-shrink: 0;
+    margin-top:10em;
+    padding:10px 45px 10px 45px;
+    color:$linkcolor;
+}
+.wrapper{
+    flex: 1 0 auto;
+    margin: 0 auto;
+    max-width:900px;
+}
